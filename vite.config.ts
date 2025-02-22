@@ -15,8 +15,8 @@ export default defineConfig({
           react: ['react', 'react-dom'],
           reactHotToast: ['react-hot-toast'],
           reactRouter: ['react-router', 'react-router-dom'],
-          web3: ['@bbachain/web3.js'],
-          adapters: [
+          bbachainWeb3: ['@bbachain/web3.js'],
+          walletAdapters: [
             '@bbachain/wallet-adapter-base',
             '@bbachain/wallet-adapter-react',
             '@bbachain/wallet-adapter-react-ui',
